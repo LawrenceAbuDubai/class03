@@ -9,6 +9,8 @@ if (guessingGame !== null) {
 }
 
 
+
+function guessingGameF(){
 switch (guessingGame) {
 case 'yes':
 case 'y':
@@ -26,7 +28,13 @@ default:
   //console.log('you have to answer either yes or no');
   alert('you have to answer either yes or no');
   break;
-}
+}}
+
+guessingGameF();
+
+
+
+function hotDrinkF(){
 let hotdrink = prompt('Do you think i like hotdrink?!');
 if (hotdrink !== null) {
   hotdrink = hotdrink.toLowerCase();
@@ -48,7 +56,10 @@ default:
   //  console.log(''I\'m sure that I\'do not like hotDrink !!');
   alert('I\'m sure that not a hotDrink !!');
   break;
-}
+}}
+hotDrinkF();
+
+function ageF(){
 let age = prompt('do you think that I\'m  20 ?');
 if (age != null) {
   age = age.toLowerCase();
@@ -70,7 +81,11 @@ default:
   //  console.log('oh so what do you think then??!');
   alert('oh so what do you think then??!');
   break;
-}
+}}
+ageF();
+
+
+function travelF(){
 let travel = prompt('do you think that I\'m love to travel?');
 if (travel != null) {
   travel = travel.toLowerCase();
@@ -92,8 +107,10 @@ default:
   // console.log('you have to guss!!');
   alert('you have to guss!!');
   break;
-}
+}}
+travelF();
 
+function studyF(){
 let study = prompt('do you think that I\'m like to study?');
 if (study != null) {
   study = study.toLowerCase();
@@ -115,9 +132,12 @@ default:
   // console.log('i think you need to think about it');
   alert('i think you need to think about it');
   break;
-}
+}}
+
+studyF();
 
 
+function numGuessF(){
 let num;
 
 
@@ -142,12 +162,14 @@ for(let i =0; i < 4 ; i++){
   }
 
 
-}
+}}
+numGuessF();
+
+
 alert ('the correct answer is 5');
 
 
-
-
+function favOSF(){
 let favOS = ['windows', 'linux', 'ubuntu','mac'];
 
 
@@ -173,8 +195,8 @@ console.log(mark.length);
 
 alert('mark = ' + mark.length + '/7');
 
+}
 
-
-
+favOSF();
 
 
