@@ -49,15 +49,15 @@ default:
   alert('I\'m sure that not a hotDrink !!');
   break;
 }
-let age = prompt('do you think that I\'m a bove 20 ?');
+let age = prompt('do you think that I\'m  20 ?');
 if (age != null) {
   age = age.toLowerCase();
 }
 switch (age) {
 case 'yes':
 case 'y':
-  // console.log('thats trueee ');
-  alert('thats trueee ');
+  // console.log('thats true ');
+  alert('thats true ');
   mark.push(6);
   console.log(mark);
   break;
@@ -119,12 +119,13 @@ default:
 
 
 let num;
-num = Number(prompt('please enter number : '));
+
 
 for(let i =0; i < 4 ; i++){
+  num = Number(prompt('please enter number : '));
   if(num === 5)
   {
-    // alert('correct answer');
+
     mark.push(5);
     console.log(mark);
     break;
@@ -132,15 +133,18 @@ for(let i =0; i < 4 ; i++){
   else if(num > 5){
     alert('is too hight');
 
+
   }
   else if(num <5){
     alert('is too low');
 
+
   }
 
-}
 
+}
 alert ('the correct answer is 5');
+
 
 
 
@@ -151,7 +155,7 @@ for(let i = 0; i<6; i++){
   let answer = prompt('enter a OS type');
   for(let j = 0; j < favOS.length; j++){
     if(answer == favOS[j]){
-      alert('correct annswer, good job');
+      alert('correct annswer');
       mark.push(7);
       console.log(mark);
       i =6;
